@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #557A95;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 210%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header_top {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.heading {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    text-decoration: none;
+    color: #c2cac0;
+    display: inline-block;
+    width: fit-content;
+    font-size: 250%;
+}
+
+.header_bottom a {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.header_bottom nav {
+    height: 100%;
+}
+
+.container {
+    padding: 15px 0px;
+    margin: 0 auto;
+    text-align: left;
+    width: 1175px;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.navigation li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+.header_bottom {
+    height: 10%;
+    align-content: center;
+    height: 80px;
+}
+
+.settings {
+    max-height: 40px !important;
+    max-width: 40px !important;
+    margin-right: 15px;
+}
+
+.profile {
+    max-height: 40px !important;
+    max-width: 40px !important;
+}
+
+.header_container {
+    display: flex;
+    margin-left: auto;
+}

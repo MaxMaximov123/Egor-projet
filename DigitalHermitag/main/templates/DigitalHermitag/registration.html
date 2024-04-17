@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'DigitalHermitag/styles/registration.css'%}">
+</head>
+<body>
+<p style="margin: 0.4em;">
+    <a href="{% url socialauth_begin 'vkontakte-oauth2' %}">Enter VK</a>
+</p>
+<p style="margin: 0.4em;">
+    <a href="{% url socialauth_begin 'google-oauth2' %}">Enter Google</a>
+</p>
+<p style="margin: 0.4em;">
+    <a href="{% url socialauth_begin 'yandex-oauth2' %}">Enter Yandex</a>
+</p>
+<div class="register_page">
+    <div class="login">
+        Логин:
+        <input type="text">
+    </div>
+    <div class="password">
+        Пароль:
+        <input type="password">
+    </div>
+    <div class="confirm_password">
+        Подтверждение пароля:
+        <input type="password">
+    </div>
+</div>
+</body>
+</html>

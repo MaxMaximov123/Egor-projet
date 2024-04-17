@@ -1,0 +1,25 @@
+.login {
+    background-color: #c2cac0;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 2%;
+    text-align: left;
+}
+
+.heading {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    text-decoration: none;
+    color: #c2cac0;
+    display: inline-block;
+    width: fit-content;
+    font-size: 250%;
+}
+
+.form-error {
+    color: red;
+    list-style: none !important;
+}

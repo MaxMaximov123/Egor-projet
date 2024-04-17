@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    background-color: #557a95;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 210%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    border-radius: 10px;
+}
+
+header {
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.heading {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    text-decoration: none;
+    color: #c2cac0;
+    display: inline-block;
+    width: fit-content;
+    font-size: 250%;
+}
+
+.content_field {
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #c2cac0;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.container_for_img {
+    width: 46%;
+    margin: 2%;
+    height: fit-content;
+    justify-content: center;
+    display: flex;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.container_for_img img {
+    max-width: 100%;
+    height: fit-content;
+    display: inline-block;
+    padding: 2%;
+    background-color: black;
+}
+
+.text_content {
+    width: 46%;
+    height: 100%;
+}
+
+.name_of_art {
+    width: 90%;
+    height: auto;
+    margin: 0;
+    font-size: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.describition {
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 10px;
+    border: black 1px solid;
+    padding: 1%;
+    text-align: justify;
+    font-size: 85%;
+    height: 50%;
+    width: 90%;
+}
+
+.painter_info {
+    height: fit-content;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.painter_info img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.mark_tools {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.mark_tools img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.mark_tools img:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.genre {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.create_exh {
+    background-color: #c2cac0;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.image_field {
+    text-align: center;
+    margin: auto 1%;
+    height: fit-content;
+    width: 48%;
+}

@@ -1,0 +1,119 @@
+.main_page {
+    background-color: #557a95;
+}
+
+.add_new {
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: #c2cac0;
+    border-radius: 30px;
+    display: block;
+    margin-bottom: 2%;
+}
+
+.name_of_exh {
+    height: auto;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content_field {
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #c2cac0;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.container_for_img {
+    width: 46%;
+    margin: 2%;
+    justify-content: center;
+    display: flex;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.container_for_img img {
+    max-width: 100%;
+    max-height: 100%;
+    height: fit-content;
+    display: inline-block;
+    padding: 2%;
+    background-color: black;
+}
+
+.text_content {
+    width: 46%;
+    margin: 2%;
+    height: 100%;
+}
+
+.name_of_art {
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+.describition {
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 10px;
+    border: black 1px solid;
+    padding: 1%;
+    text-align: justify;
+    font-size: 85%;
+    height: 50%;
+    width: auto;
+}
+
+.painter_info {
+    height: fit-content;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.painter_info img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.mark_tools {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.mark_tools img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.mark_tools img:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.genre {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 70%;
+    margin: 1% 10%;
+}
+
+.header_top {
+    text-align: center;
+}
