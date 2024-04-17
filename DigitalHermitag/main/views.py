@@ -36,7 +36,7 @@ def add_art(request):
         'error': error
     }
 
-    return render(request, 'Digitalhermitag/add_art.html', data)
+    return render(request, 'DigitalHermitag/add_art.html', data)
 
 
 def search_page(request):
