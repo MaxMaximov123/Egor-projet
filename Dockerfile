@@ -10,9 +10,7 @@ RUN pip install Pillow
 # Копирование файлов окружения в контейнер
 COPY ./ ./
 
-WORKDIR /.
-
-RUN cd DigitalHermitag
+WORKDIR /DigitalHermitag
 
 # Команда запуска вашего приложения
 CMD ["python", "manage.py", "runserver", "0.0.0.0:3100"]
