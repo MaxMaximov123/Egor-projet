@@ -6,7 +6,8 @@ body {
     text-align: center;
     background-color: #557A95;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 210%;
+    /*font-size: 210%;*/
+    font-size: clamp(10px, 2.5vw, 16px);
 }
 
 a {
@@ -20,6 +21,7 @@ a {
     margin-bottom: 10px;
     height: auto;
     border-radius: 10px;
+    font-size: clamp(15px, 4vw, 20px);
 }
 
 .heading {
@@ -30,7 +32,7 @@ a {
     color: #c2cac0;
     display: inline-block;
     width: fit-content;
-    font-size: 250%;
+    font-size: clamp(50px, 7vw, 100px);
 }
 
 .header_bottom a {

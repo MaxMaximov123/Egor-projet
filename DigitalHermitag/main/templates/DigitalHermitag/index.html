@@ -25,9 +25,9 @@
     <a href="{% url 'index' %}" class="heading">Цифровой Эрмитаж</a>
 </header>
     <form class="search_fields" action="{% url 'search_page' %}" method="get">
-      <input name="title" type="text" placeholder="Поиск по названию">
-      <input name="genre" type="text" placeholder="Поиск по жанру">
-      <input name="author" type="text" placeholder="Поиск по Автору">
+      <input name="title" type="text" placeholder="Название">
+      <input name="genre" type="text" placeholder="Жанр">
+      <input name="author" type="text" placeholder="Автор">
         <button class="create_exh" type="submit">Поиск</button>
     </form>
 {% for el in arts_list %}

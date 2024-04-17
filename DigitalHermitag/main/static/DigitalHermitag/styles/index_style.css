@@ -3,12 +3,14 @@
 }
 
 .add_new {
-    width: 4%;
-    height: auto;
+    width: clamp(40px, 4vw, 60px);
+    height: clamp(40px, 4vw, 60px);
     padding: 5px;
     margin: auto;
     background-color: #c2cac0;
     border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
     display: block;
     position: fixed;
     bottom: 2%;
@@ -31,7 +33,7 @@
 
 .content_field {
     width: 80%;
-    height: 60vh;
+    height: auto;
     max-height: 50%;
     margin-left: 10%;
     margin-right: 10%;
@@ -39,6 +41,8 @@
     border-radius: 10px;
     display: flex;
     margin-bottom: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .container_for_img {
@@ -69,7 +73,8 @@
     width: auto;
     height: auto;
     margin-top: 0;
-    font-size: 100%;
+    /*font-size: 100%;*/
+    font-size: clamp(40px, 4vw, 70px);
     margin-bottom: 10px;
 }
 
@@ -80,7 +85,8 @@
     border: black 1px solid;
     padding: 1%;
     text-align: justify;
-    font-size: 85%;
+    /*font-size: 85%;*/
+    font-size: clamp(20px, 4vw, 30px);
     height: 50%;
     width: auto;
 }
@@ -89,7 +95,8 @@
     height: fit-content;
     width: 100%;
     text-align: right;
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: clamp(20px, 2.5vw, 30px);
     margin-bottom: 20px;
 }
 
@@ -112,7 +119,8 @@
     height: auto;
     padding: 10px;
     border-radius: 10px;
-    font-size: 70%;
+    /*font-size: 70%;*/
+    font-size: clamp(30px, 2.5vw, 50px);
     margin: 1% 10%;
 }
 
@@ -126,13 +134,15 @@
 }
 
 .search_fields input:not(:last-of-type) {
-    margin-right: 2%;
+    margin-right: 5px;
+
 }
 
 .search_fields input {
     width: 32%;
     background-color: #c2cac0;
     color: black;
+    font-size: clamp(10px, 4vw, 25px);
 }
 
 .search_fields button {
@@ -145,4 +155,23 @@
     padding: 5px;
     width: fit-content;
     display: inline;
+    font-size: clamp(15px, 4vw, 20px);
+}
+
+@media (max-width: 700px) {
+    .content_field {
+      display: block;
+    }
+
+    .container_for_img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .text_content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
 }
