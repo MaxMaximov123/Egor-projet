@@ -8,9 +8,9 @@ RUN pip install Django
 RUN pip install Pillow
 
 # Копирование файлов окружения в контейнер
-COPY DigitalHermitag /app
+COPY DigitalHermitag /.
 
-WORKDIR /app
+WORKDIR /.
 
 # Команда запуска вашего приложения
 CMD ["python", "manage.py", "runserver", "127.0.0.1:3100"]
